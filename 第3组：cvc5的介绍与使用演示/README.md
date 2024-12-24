@@ -1,17 +1,21 @@
 # cvc5
-## 简介
+## 小组成员
 
+| 学号          | 姓名  |
+|-------------|-----|
+| 22009100527 | 朱晨  |
+|  | 陈曦  |
+|  | 何牧  |
+|  | 曾文海 |
+
+## 简介
 cvc5 是一个高性能的 SMT（可满足性模块理论）求解器，广泛用于逻辑推理、程序验证和自动化问题解决.
 
-## 参考网址
-cvc5 github：
-https://github.com/cvc5/cvc5
+## 工作内容
+- 介绍了cvc5的背景及其原理，
+- 使用编写的几个 demo 将 cvc5 求解器与课堂上所介绍的问题相结合，进行了充分的探索。
+- 针对观察到的现象进行了深入的思考
 
-cvc5 官网： 
-https://cvc5.github.io/
-
-cvc5 online（SMT-LIB 标准）：
-https://cvc5.github.io/app/
 
 ## 讲解视频
 
@@ -33,4 +37,16 @@ pip install cvc5
 关于cvc5的详细原理可见展示PPT
 
 
+## 参考网址
+cvc5 github：
+https://github.com/cvc5/cvc5
+
+cvc5 官网： 
+https://cvc5.github.io/
+
+cvc5 online（SMT-LIB 标准）：
+https://cvc5.github.io/app/
+
+## 思考
+通过使用他们的python API，研究了如何通过cvc5求解器解决各类问题，以及它在求解问题的时候的时间消耗，思考其背后的实现原理，详情可以看课程回放以及讲解视频。
 
